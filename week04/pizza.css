@@ -1,0 +1,29 @@
+@charset "utf-8";
+
+body {
+    margin: 10px;
+    padding: 10px;
+    border-style: solid;
+    border-width: 5px;
+    border-color: green;
+    font-family: "Georgia", serif;
+  }
+
+div {
+    background-color: lightgray;
+}
+
+header h1{
+    font-size: 300%;
+    text-align: center;
+}
+
+header img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+header p{
+    text-align: center;
+}
