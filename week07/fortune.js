@@ -7,9 +7,9 @@ var xx = Math.floor(Math.random() * 4);
 
 function fortune(job,city,spouse,numKids){
 
-document.write("You will be a " + job[xx] + " in " + city[xx] + ", and married to " + spouse[xx] + " with " 
-+ numKids[xx] + " kids.");
+document.write("You will be a " + job + " in " + city + ", and married to " + spouse + " with " 
++ numKids + " kids.");
 
 }
 
-function fortune(job[xx],city[xx],spouse[xx],numKids[xx]);
+fortune(job[xx],city[xx],spouse[xx],numKids[xx]);
